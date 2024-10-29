@@ -1,0 +1,45 @@
+model:
+  arch: llava_interleave
+  llama_model: llava-hf/llava-v1.6-vicuna-7b-hf
+  gradient_checkpointing: True
+  pooling: ppllava
+  clip_weight: openai/clip-vit-large-patch14-336
+  pooling_kernel: (2,3,3)
+  pooling_stride: (2,3,3)
+  image_pooling_kernel: (1,3,3)
+  image_pooling_stride: (1,3,3)
+  frame_shape: (24,24)
+  btadapter: True
+  extend_clip: True
+  freeze_LLM: False
+  pad_token_id: 0
+
+datasets:
+  interleave_datasets:
+    llava_hound_300k:
+      num_frames: 32
+      video_reader_type: 'rawframe'
+
+
+
+run:
+  task: interleave_sft
+  bf16: True
+  fp16: False
+  tf32: False
+  output_dir: "./ppllava/output/interleave/ppllava_vicuna7b_videoonly"
+  num_train_epochs: 2
+  dataloader_num_workers: 4
+  per_device_train_batch_size: 8
+  per_device_eval_batch_size: 4
+  gradient_accumulation_steps: 2
+  evaluation_strategy: "no"
+  learning_rate: 2e-5
+  weight_decay: 0.
+  warmup_ratio: 0.03
+  lr_scheduler_type: 'cosine'
+  logging_steps: 50
+  model_max_length: 1024
+  save_strategy: "epoch" 
+  save_total_limit: 1
+  deepspeed: 'ppllava/train/zero3.json'
