@@ -15,10 +15,7 @@ from ppllava.models.base_model import BaseModel
 from ppllava.models.blip2 import Blip2Base
 from ppllava.models.st_llm import STLLMForCausalLM
 from ppllava.processors.base_processor import BaseProcessor
-from ppllava.models.llava import LlavaNextVidForConditionalGeneration
-from ppllava.models.llava_nogrid import LlavaNextVidForConditionalGenerationNoGrid
-from ppllava.models.llava_interleave.llava_interleave import LlavaInterleaveForConditionalGeneration
-from ppllava.models.llava_interleave.llava_next import my_llava_next
+from ppllava.models.llava_interleave import LlavaInterleaveForConditionalGeneration
 from ppllava.models.clip import CLIPModelwithVideo
 
 __all__ = [
@@ -26,8 +23,6 @@ __all__ = [
     "BaseModel",
     "Blip2Base",
     "STLLMForCausalLM",
-    "LlavaNextVidForConditionalGeneration",
-    "LlavaNextVidForConditionalGenerationNoGrid",
     "LlavaInterleaveForConditionalGeneration",
     "CLIPModelwithVideo",
 ]
