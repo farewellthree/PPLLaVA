@@ -33,19 +33,18 @@ model_config = cfg.model_cfg
 llama_model = model_config.llama_model 
 model_config.llama_model = args.ckpt_path
 model_cls = registry.get_model_class(model_config.arch)
-model = model_cls.from_pretrained(args.ckpt_path)
+model = model_cls.from_pretrained(args.ckpt_path, torch_dtype=torch.float16)
 model = model.to('cuda:{}'.format(args.gpu_id))
-model.to(torch.float16)
 
 processor = LLaVA_Processer(model_config)
-processor.processor.image_processor.set_reader(num_frame=32)
+processor.processor.image_processor.set_reader(video_reader_type='decord', num_frames=32)
 if 'qwen' in llama_model:
     conv = conv_templates['plain_qwen']
 elif 'llava' in llama_model:
     conv = conv_templates['plain_v1']
 
 video = 'example/wukong_yugao.mp4'
-prompt = "Describe the scenes of this video in detail."
+prompt = "Describe this video in detail."
 
 local_conv = conv.copy()
 local_conv.user_query(prompt, is_mm=True)
