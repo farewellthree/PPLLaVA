@@ -1,3 +1,17 @@
+
+<h2 align="center"> <a href="https://arxiv.org/abs/2404.00308">PPLLaVA: Varied Video Sequence Understanding With Prompt Guidance</a></h2>
+
+<h5 align=center>
+
+[![hf](https://img.shields.io/badge/🤗-Hugging%20Face-blue.svg)](https://huggingface.co/farewellthree/ppllava_weight/tree/main)
+[![arXiv](https://img.shields.io/badge/Arxiv-2311.08046-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2404.00308)
+[![License](https://img.shields.io/badge/Code%20License-Apache2.0-yellow)](https://github.com/farewellthree/PPLLaVA/blob/main/LICENSE)
+</h5>
+
+## News :loudspeaker:
+
+* **[2024/10/28]**  All codes and weights are available now! Welcome to watch this repository for the latest updates.
+  
 ## Introduction :bulb:
 
 - **PPLLaVA** is an effective and efficient video large language model. Our model incorporates three parts: 
@@ -57,4 +71,19 @@
     </tr>
 </table>
 </div>
+
+## Installation 🛠️
+Git clone our repository, create a Python environment and activate it via the following command
+
+```bash
+git clone https://github.com/farewellthree/PPLLaVA.git
+cd PPLLaVA
+conda create --name ppllava python=3.9
+conda activate ppllava
+pip install -r requirement.txt
+```
+
+## Training & Validation :bar_chart:
+The instructions of data, training and evaluating can be found in [trainval.md](trainval.md).
+
   
