@@ -87,7 +87,7 @@ class LlavaInterleaveForConditionalGeneration(LlavaNextPreTrainedModel, BaseMode
         elif config.pooling == 'pllava_npu':
             self.multi_modal_projector = PllavaNPU3DMultiModalProjector(config)
         elif config.pooling == 'ppllava':
-            if self.config.qwen:
+            if hasattr(self.config, "qwen") and self.config.qwen:
                 self.multi_modal_projector = LLaVASiglip3DMultiModalProjector(config)
             else:
                 self.multi_modal_projector = LLaVACLIP3DMultiModalProjector(config)
