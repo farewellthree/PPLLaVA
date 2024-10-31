@@ -127,7 +127,7 @@ def main():
 
     # Set the OpenAI API key.
     openai.api_key = args.api_key
-    openai.api_base = "http://v2.open.venus.oa.com/llmproxy"
+    
     num_tasks = args.num_tasks
 
     # While loop to ensure that all captions are processed.
