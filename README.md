@@ -72,6 +72,12 @@
 </table>
 </div>
 
+## Examples 👀
+- **Video Dense Caption: PPLLaVA can effectively balance the content, state, and motion of both the foreground and background, while maintaining detail and accuracy.**
+<div align=center>
+<img src="example/visual.png" width="1100px">
+</div>
+
 ## Installation 🛠️
 Git clone our repository, create a Python environment and activate it via the following command
 
@@ -85,5 +91,18 @@ pip install -r requirement.txt
 
 ## Training & Validation :bar_chart:
 The instructions of data, training and evaluating can be found in [trainval.md](trainval.md).
+
+## Citation ✏️
+If you find the code and paper useful for your research, please consider staring this repo and citing our paper:
+```
+@inproceedings{liu2025st,
+  title={St-llm: Large language models are effective temporal learners},
+  author={Liu, Ruyang and Li, Chen and Tang, Haoran and Ge, Yixiao and Shan, Ying and Li, Ge},
+  booktitle={European Conference on Computer Vision},
+  pages={1--18},
+  year={2025},
+  organization={Springer}
+}
+```
 
   
