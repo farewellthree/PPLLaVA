@@ -75,7 +75,12 @@
 ## Examples 👀
 - **Video Dense Caption: PPLLaVA can effectively balance the content, state, and motion of both the foreground and background, while maintaining detail and accuracy.**
 <div align=center>
-<img src="example/visual.png" width="1100px">
+<img src="example/visual.png" width="1150px">
+</div>
+
+- **Multi-turn dialogue and reasoning: PPLLaVA can engage in smooth Q&A interactions and provide reasonable inferences.**
+<div align=center>
+<img src="example/visual2.png" width="900px">
 </div>
 
 ## Installation 🛠️
