@@ -61,3 +61,5 @@ whisper
 tiktoken
 more-itertools
 sentencepiece
+mmengine
+mmcv
