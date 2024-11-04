@@ -25,7 +25,7 @@ from ppllava.test.vcgbench.utils import VideoChatGPTBenchDataset
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Demo")
-    parser.add_argument("--cfg-path", help="path to configuration file.")
+    parser.add_argument("--cfg-path", help="path to configuration file.", default="config/vicuna/ppllava_vicuna7b_image_video.yaml")
     parser.add_argument("--gpu-id", type=int, default=0, help="specify the gpu to load the model.")
     parser.add_argument("--ckpt-path", help="path to ckpt file.")
     parser.add_argument(
