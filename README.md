@@ -1,4 +1,6 @@
-
+<p align="center" width="100%">
+<a target="_blank"><img src="example/logo.jpg" alt="PPLLaVA" style="width: 50%; min-width: 150px; display: block; margin: auto;"></a>
+</p>
 <h2 align="center"> <a href="https://arxiv.org/abs/2404.00308">PPLLaVA: Varied Video Sequence Understanding With Prompt Guidance</a></h2>
 
 <h5 align=center>
@@ -9,7 +11,7 @@
 </h5>
 
 ## News :loudspeaker:
-
+* **[2024/11/4]**  We have added the gradio chatbox, see the [instruction](README.md#Demo).
 * **[2024/10/28]**  All codes and weights are available now! Welcome to watch this repository for the latest updates.
   
 ## Introduction :bulb:
@@ -71,6 +73,12 @@
     </tr>
 </table>
 </div>
+
+## Demo 🤗
+Please download the conversation weights from [here](https://huggingface.co/farewellthree/ppllava_weight/tree/main/ppllava_vicuna7b_image_video_dpo) and follow the instructions in [installation](README.md#Installation) first. Then, run the gradio demo:
+```
+CUDA_VISIBLE_DEVICES=0 python3 demo.py --ckpt-path /path/to/PPLLaVA_conversation_weight
+```
 
 ## Examples 👀
 - **Video Dense Caption: PPLLaVA can effectively balance the content, state, and motion of both the foreground and background, while maintaining detail and accuracy.**
