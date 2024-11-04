@@ -8,6 +8,7 @@
 [![hf](https://img.shields.io/badge/🤗-Hugging%20Face-blue.svg)](https://huggingface.co/farewellthree/ppllava_weight/tree/main)
 [![arXiv](https://img.shields.io/badge/Arxiv-2311.08046-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2404.00308)
 [![License](https://img.shields.io/badge/Code%20License-Apache2.0-yellow)](https://github.com/farewellthree/PPLLaVA/blob/main/LICENSE)
+[![NPU Code](https://img.shields.io/badge/NPU-Code-000?logo=github)](https://github.com/farewellthree/PPLLaVA-NPU)
 </h5>
 
 ## News :loudspeaker:
