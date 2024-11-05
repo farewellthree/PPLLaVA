@@ -1,12 +1,12 @@
 <p align="center" width="100%">
 <a target="_blank"><img src="example/logo.jpg" alt="PPLLaVA" style="width: 50%; min-width: 150px; display: block; margin: auto;"></a>
 </p>
-<h2 align="center"> <a href="https://arxiv.org/abs/2404.00308">PPLLaVA: Varied Video Sequence Understanding With Prompt Guidance</a></h2>
+<h2 align="center"> <a href="https://arxiv.org/abs/2411.02327">PPLLaVA: Varied Video Sequence Understanding With Prompt Guidance</a></h2>
 
 <h5 align=center>
 
 [![hf](https://img.shields.io/badge/🤗-Hugging%20Face-blue.svg)](https://huggingface.co/farewellthree/ppllava_weight/tree/main)
-[![arXiv](https://img.shields.io/badge/Arxiv-2311.08046-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2404.00308)
+[![arXiv](https://img.shields.io/badge/Arxiv-2411.02327-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2411.02327)
 [![License](https://img.shields.io/badge/Code%20License-Apache2.0-yellow)](https://github.com/farewellthree/PPLLaVA/blob/main/LICENSE)
 [![NPU Code](https://img.shields.io/badge/NPU-Code-000?logo=github)](https://github.com/farewellthree/PPLLaVA-NPU)
 </h5>
@@ -116,6 +116,14 @@ If you find the code and paper useful for your research, please consider staring
   pages={1--18},
   year={2025},
   organization={Springer}
+}
+```
+```
+@article{liu2024ppllava,
+  title={PPLLaVA: Varied Video Sequence Understanding With Prompt Guidance},
+  author={Liu, Ruyang and Tang, Haoran and Liu, Haibo and Ge, Yixiao and Shan, Ying and Li, Chen and Yang, Jiankun},
+  journal={arXiv preprint arXiv:2411.02327},
+  year={2024}
 }
 ```
 
