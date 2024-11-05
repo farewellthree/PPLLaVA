@@ -34,7 +34,7 @@
   - (3) CLIP context extension.
 
 <div align=center>
-<img src="example/method.png" width="700px">
+<img src="example/model.png" width="700px">
 </div>
 
 
