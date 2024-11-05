@@ -11,6 +11,17 @@
 [![NPU Code](https://img.shields.io/badge/NPU-Code-000?logo=github)](https://github.com/farewellthree/PPLLaVA-NPU)
 </h5>
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/ppllava-varied-video-sequence-understanding/video-based-generative-performance)](https://paperswithcode.com/sota/video-based-generative-performance?p=ppllava-varied-video-sequence-understanding)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/ppllava-varied-video-sequence-understanding/video-based-generative-performance-1)](https://paperswithcode.com/sota/video-based-generative-performance-1?p=ppllava-varied-video-sequence-understanding)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/ppllava-varied-video-sequence-understanding/video-based-generative-performance-4)](https://paperswithcode.com/sota/video-based-generative-performance-4?p=ppllava-varied-video-sequence-understanding)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/ppllava-varied-video-sequence-understanding/video-based-generative-performance-3)](https://paperswithcode.com/sota/video-based-generative-performance-3?p=ppllava-varied-video-sequence-understanding)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/ppllava-varied-video-sequence-understanding/video-based-generative-performance-5)](https://paperswithcode.com/sota/video-based-generative-performance-5?p=ppllava-varied-video-sequence-understanding)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/ppllava-varied-video-sequence-understanding/video-based-generative-performance-2)](https://paperswithcode.com/sota/video-based-generative-performance-2?p=ppllava-varied-video-sequence-understanding)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/ppllava-varied-video-sequence-understanding/video-question-answering-on-mvbench)](https://paperswithcode.com/sota/video-question-answering-on-mvbench?p=ppllava-varied-video-sequence-understanding)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/ppllava-varied-video-sequence-understanding/zeroshot-video-question-answer-on-activitynet)](https://paperswithcode.com/sota/zeroshot-video-question-answer-on-activitynet?p=ppllava-varied-video-sequence-understanding)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/ppllava-varied-video-sequence-understanding/zeroshot-video-question-answer-on-msrvtt-qa)](https://paperswithcode.com/sota/zeroshot-video-question-answer-on-msrvtt-qa?p=ppllava-varied-video-sequence-understanding)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/ppllava-varied-video-sequence-understanding/zeroshot-video-question-answer-on-msvd-qa)](https://paperswithcode.com/sota/zeroshot-video-question-answer-on-msvd-qa?p=ppllava-varied-video-sequence-understanding)
+
 ## News :loudspeaker:
 * **[2024/11/4]**  We have added the gradio chatbox, see the [instruction](README.md#Demo).
 * **[2024/10/28]**  All codes and weights are available now! Welcome to watch this repository for the latest updates.
