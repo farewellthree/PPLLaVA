@@ -29,7 +29,6 @@ class VideoQABenchDataset(EvalDataset):
             data_dir='/Path/to/ActivityNet/activitynet_frames',
             q_json_relpath="/Path/to/video_chatgpt/test_q.json", 
             a_json_relpath="/Path/to/video_chatgpt/test_a.json", 
-            frame='/Path/to/video_chatgpt/activitynet_frames.json',
             data_type="frame", 
             bound=False,
             question_key='question',
@@ -51,12 +50,10 @@ class VideoQABenchDataset(EvalDataset):
             with open(data_list_info.pop('a_json_relpath'), 'r') as f:
                 gt_answers = json.load(f)
             
-            with open(data_list_info.pop('frame'),'r') as f:
-                frames = json.load(f)
-            
             for i, sample in enumerate(gt_questions):
                 video_name = 'v_' + sample['video_name']
-                video_name = video_name if video_name in frames else video_name + '.webm'
+                path = os.path.join(self.data_list_info[dataset]['data_dir'], video_name)
+                video_name = video_name if os.path.exists(path) else video_name + '.webm'
 
                 question = sample['question']
                 id = sample['question_id']
