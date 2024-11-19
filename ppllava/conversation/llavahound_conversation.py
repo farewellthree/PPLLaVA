@@ -12,9 +12,9 @@ import dataclasses
 from enum import auto, Enum
 from typing import List, Tuple, Any
 
-from stllm.common.registry import registry
-from stllm.test.video_utils import load_video
-from stllm.datasets.datasets.llavavid_processor import LlavaNextViDTextProcessor
+from ppllava.common.registry import registry
+from ppllava.test.video_utils import load_video
+from ppllava.datasets.datasets.llavavid_processor import LlavaNextViDTextProcessor
 
 from transformers import LlavaNextProcessor, CLIPProcessor
 from transformers.feature_extraction_utils import BatchFeature
